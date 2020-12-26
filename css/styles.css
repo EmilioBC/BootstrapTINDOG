@@ -1,5 +1,5 @@
 body{
-  font-family: "Montserrat";
+  font-family: 'Montserrat-Bold', sans-serif;
 }
 #title {
   background-color: #ff4c68;
@@ -19,11 +19,13 @@ body{
   text-align: center;
 }
 h1 {
+  font-family: 'Montserrat-Bold', sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
   color: white;
   padding-top: 50px;
   padding-bottom: 25px;
+  font-weight: 1000px;
 }
 h2,
 h3 {
@@ -109,6 +111,14 @@ p{
   background-color: #ff4c68;
   padding: 7% 15%;
   color: white;
+}
+#footer {
+  text-align: center;
+  padding: 10% 10%;
+  background-color: #fff;
+}
+.social-icons {
+  padding: 3% 1.5%
 }
 
 @media (max-width: 1000px) {
